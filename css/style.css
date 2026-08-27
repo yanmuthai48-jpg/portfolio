@@ -595,8 +595,10 @@ ul.dropdown-menu > li > a:hover,
 .service-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 45px;
-  padding: 15px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 24px 20px;
   border-radius: 12px;
   background: #ffffff;
   border: 1px solid var(--border-color);
@@ -641,7 +643,7 @@ ul.dropdown-menu > li > a:hover,
   margin-top: 0;
   margin-bottom: 8px;
   line-height: 1.35;
-  min-height: 44px;
+  min-height: 48px;
   display: flex;
   align-items: center;
 }
